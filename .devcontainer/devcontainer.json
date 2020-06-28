@@ -1,0 +1,21 @@
+{
+  "name": "AtCoder_TS_Dev",
+  "extensions": [
+    "editorconfig.editorconfig",
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "dbaeumer.vscode-eslint"
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "eslint.validate": [
+      "javascript",
+      "typescript"
+    ],
+    "javascript.format.enable": false,
+    "typescript.format.enable": false
+  },
+  "dockerFile": "../.docker/Dockerfile"
+}
