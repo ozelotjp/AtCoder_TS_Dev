@@ -7,6 +7,7 @@ AtCoderの開発環境をTypeScriptで整えてVSCodeで動かせるやつ。
 ## 環境構築
 
 - VSCodeでディレクトリを開き `Remote-Containers: Reopen in Container` を選択
+- `yarn` コマンドを実行して依存パッケージをダウンロード
 - `yarn run acc login` コマンドを実行してログイン
 
 ## 問題のダウンロード
